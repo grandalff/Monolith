@@ -1,0 +1,40 @@
+# SPDX-FileCopyrightText: 2025 grandalff
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: vessel
+  id: Gruznyk
+  parent: BaseVesselAntag
+  name: NCS Gruznyk
+  description: A cramped USSP military cargo shuttle, used for transporting legal or illicit goods. Comes with FTL, recommended crew size is no more than two.
+  price: 45000
+  category: Medium
+  group: Ussp
+  access: USSP
+  shuttlePath: /Maps/_Mono/Shuttles/USSP/gruznyk.yml
+  guidebookPage: Null
+  class:
+  - Cargo
+  - Patrol
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Gruznyk
+  mapName: 'Gruznyk'
+  mapPath: /Maps/_Mono/Shuttles/USSP/Gruznyk.yml
+  minPlayers: 0
+  stations:
+    Gruznyk:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Gruznyk USSP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            USSPSergeant: [0, 0]
+            USSPCorporal: [0, 0]
+            USSPMedic: [0, 0]
+            USSPRifleman: [0, 0]
