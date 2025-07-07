@@ -14,7 +14,7 @@
   parent: BaseVesselAntag
   name: NCS Akula
   description: A USSP long range harasser, meant for hit and runs. Comes with a charonette (mini charon), two dravons and CTLA-25s. The sink is near the entrance.
-  price: 79000
+  price: 52000
   category: Medium
   group: Ussp
   access: USSP
