@@ -171,6 +171,10 @@ public enum VesselClass : byte
     Fighter,
     Patrol,
     Pursuit,
+    Picket,
+    Bomber,
+    Carrier,
+    Interceptor,
     // Capabilities
     Expedition,
     Scrapyard,

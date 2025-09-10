@@ -91,3 +91,8 @@ shipyard-console-engine-Welding = Welding Fuel
 shipyard-console-engine-Plasma = Plasma
 shipyard-console-engine-Uranium = Uranium
 shipyard-console-engine-Bananium = Bananium
+
+shipyard-console-class-Bomber = Bomber
+shipyard-console-class-Interceptor = Interceptor
+shipyard-console-class-Carrier = Carrier
+shipyard-console-class-Picket = Picket
