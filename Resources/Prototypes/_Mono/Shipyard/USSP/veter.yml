@@ -1,0 +1,53 @@
+# SPDX-FileCopyrightText: 2025 BoskiYourk
+# SPDX-FileCopyrightText: 2025 HungryCuban
+# SPDX-FileCopyrightText: 2025 Ilya246
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 grandalff
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# SPDX-FileCopyrightText: 2025 grandalff
+# discord: grandalff_karkov
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: vessel
+  id: Veter
+  parent: BaseVesselAntag
+  name: PPU Veter
+  description: A USSP stealth bomber.
+  price: 11000
+  category: Medium
+  group: Ussp
+  access: USSP
+  shuttlePath: /Maps/_Mono/Shuttles/USSP/veter.yml
+  guidebookPage: Null
+  class:
+  - Bomber
+  engine:
+  - Solar
+  addComponents:
+  - type: SolarPoweredGrid
+    doNotCull: true
+
+- type: gameMap
+  id: Veter
+  mapName: 'Veter'
+  mapPath: /Maps/_Mono/Shuttles/USSP/veter.yml
+  minPlayers: 0
+  stations:
+    Veter:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Veter USSP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            USSPSergeant: [0, 0]
+            USSPCorporal: [0, 0]
+            USSPMedic: [0, 0]
+            USSPRifleman: [0, 0]
+            USSPCommissar: [0, 0]
