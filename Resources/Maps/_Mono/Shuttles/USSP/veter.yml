@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/10/2025 15:03:41
-  entityCount: 171
+  time: 09/10/2025 15:38:52
+  entityCount: 175
 maps: []
 grids:
 - 1
@@ -29,7 +29,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: grid
+      name: Veter
     - type: Transform
       pos: -1.171875,-1.125
       parent: invalid
@@ -230,10 +230,10 @@ entities:
       parent: 1
 - proto: APCBasic
   entities:
-  - uid: 61
+  - uid: 43
     components:
     - type: Transform
-      pos: 1.5,5.5
+      pos: 0.5,5.5
       parent: 1
 - proto: AtmosDeviceFanDirectional
   entities:
@@ -446,6 +446,11 @@ entities:
     - type: Transform
       pos: 1.5,2.5
       parent: 1
+  - uid: 175
+    components:
+    - type: Transform
+      pos: 0.5,5.5
+      parent: 1
 - proto: CableHV
   entities:
   - uid: 40
@@ -560,6 +565,11 @@ entities:
       parent: 1
 - proto: CableMV
   entities:
+  - uid: 61
+    components:
+    - type: Transform
+      pos: 0.5,5.5
+      parent: 1
   - uid: 81
     components:
     - type: Transform
@@ -772,6 +782,24 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 0.5,6.5
+      parent: 1
+  - uid: 172
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -0.5,4.5
+      parent: 1
+  - uid: 173
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 0.5,4.5
+      parent: 1
+  - uid: 174
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,4.5
       parent: 1
 - proto: GravityGeneratorMini
   entities:
@@ -1227,12 +1255,6 @@ entities:
       parent: 1
 - proto: WindowReinforcedDirectional
   entities:
-  - uid: 43
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 0.5,5.5
-      parent: 1
   - uid: 45
     components:
     - type: Transform

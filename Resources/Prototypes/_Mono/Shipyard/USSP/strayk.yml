@@ -18,7 +18,7 @@
   shuttlePath: /Maps/_Mono/Shuttles/USSP/strayk.yml
   guidebookPage: Null
   class:
-  - Pursuit
+  - Bomber
   engine:
   - Uranium
   cloakHunter: true
