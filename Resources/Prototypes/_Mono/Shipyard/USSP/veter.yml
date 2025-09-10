@@ -15,8 +15,8 @@
   id: Veter
   parent: BaseVesselAntag
   name: PPU Veter
-  description: A USSP stealth bomber.
-  price: 11000
+  description: A USSP stealth bomber, however it's at the cost of its size, speed, crew quarters and power generation method.
+  price: 30000 #for its utility
   category: Medium
   group: Ussp
   access: USSP
