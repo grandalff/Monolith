@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/11/2025 13:03:59
-  entityCount: 184
+  time: 09/11/2025 13:07:15
+  entityCount: 188
 maps: []
 grids:
 - 1
@@ -746,6 +746,18 @@ entities:
       powerLoad: 5
     - type: Battery
       startingCharge: 0
+- proto: ComputerWallmountStationRecords
+  entities:
+  - uid: 185
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -0.5,1.5
+      parent: 1
+    - type: ApcPowerReceiver
+      powerLoad: 5
+    - type: Battery
+      startingCharge: 0
 - proto: DarkCatwalkMono
   entities:
   - uid: 149
@@ -820,6 +832,16 @@ entities:
       rot: 3.141592653589793 rad
       pos: 1.5,4.5
       parent: 1
+- proto: FloorDrain
+  entities:
+  - uid: 187
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,2.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
 - proto: GravityGeneratorMini
   entities:
   - uid: 107
@@ -841,6 +863,13 @@ entities:
       parent: 22
     - type: Physics
       canCollide: False
+- proto: NFBedroll
+  entities:
+  - uid: 188
+    components:
+    - type: Transform
+      pos: -0.453125,2.6616445
+      parent: 1
 - proto: Paper
   entities:
   - uid: 41
@@ -1003,6 +1032,14 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 1.5,4.5
       parent: 1
+- proto: Sink
+  entities:
+  - uid: 186
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 1.5,2.5
+      parent: 1
 - proto: SmallGyroscopeSecurity
   entities:
   - uid: 44
@@ -1155,34 +1192,30 @@ entities:
       parent: 1
 - proto: SpawnPointUSSPCorporal
   entities:
-  - uid: 182
+  - uid: 184
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
       pos: 0.5,2.5
       parent: 1
 - proto: SpawnPointUSSPMedic
   entities:
-  - uid: 181
+  - uid: 183
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
       pos: 0.5,2.5
       parent: 1
 - proto: SpawnPointUSSPRifleman
   entities:
-  - uid: 183
+  - uid: 181
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
       pos: 0.5,2.5
       parent: 1
 - proto: SpawnPointUSSPSergeant
   entities:
-  - uid: 184
+  - uid: 182
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
       pos: 0.5,2.5
       parent: 1
 - proto: SubstationBasic
