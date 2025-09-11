@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 09/10/2025 15:38:52
-  entityCount: 175
+  time: 09/11/2025 13:03:59
+  entityCount: 184
 maps: []
 grids:
 - 1
@@ -168,23 +168,42 @@ entities:
       data:
         tiles:
           0,0:
-            0: 30545
+            0: 14097
+            1: 16448
           -1,0:
-            0: 52288
+            0: 35840
+            1: 16448
           0,1:
-            0: 279
-            1: 44168
+            0: 3
+            1: 260
+            2: 44168
           -1,1:
-            0: 12
-            1: 42787
+            0: 8
+            2: 42787
+            1: 4
           1,1:
-            1: 257
+            2: 257
         uniqueMixes:
         - volume: 2500
           temperature: 293.15
           moles:
           - 21.824879
           - 82.10312
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 0
+          - 0
           - 0
           - 0
           - 0
@@ -937,6 +956,18 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 1.5,4.5
       parent: 1
+  - uid: 178
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -1.5,2.5
+      parent: 1
+  - uid: 179
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 2.5,2.5
+      parent: 1
 - proto: PoweredDimSmallLight
   entities:
   - uid: 169
@@ -957,6 +988,20 @@ entities:
     components:
     - type: Transform
       pos: 0.5,4.5
+      parent: 1
+- proto: Railing
+  entities:
+  - uid: 176
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -0.5,4.5
+      parent: 1
+  - uid: 177
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 1.5,4.5
       parent: 1
 - proto: SmallGyroscopeSecurity
   entities:
@@ -1099,6 +1144,46 @@ entities:
     components:
     - type: Transform
       pos: 3.5,7.5
+      parent: 1
+- proto: SpawnPointLatejoin
+  entities:
+  - uid: 180
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 0.5,2.5
+      parent: 1
+- proto: SpawnPointUSSPCorporal
+  entities:
+  - uid: 182
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 0.5,2.5
+      parent: 1
+- proto: SpawnPointUSSPMedic
+  entities:
+  - uid: 181
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 0.5,2.5
+      parent: 1
+- proto: SpawnPointUSSPRifleman
+  entities:
+  - uid: 183
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 0.5,2.5
+      parent: 1
+- proto: SpawnPointUSSPSergeant
+  entities:
+  - uid: 184
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 0.5,2.5
       parent: 1
 - proto: SubstationBasic
   entities:
